@@ -2,11 +2,9 @@ const mongoose = require('mongoose');
 const displaySchema = new mongoose.Schema({
     teamA: {
         type: String,
-        required: true,
     }, 
     teamB: {
         type: String,
-        required: true,
     }, 
     sportsName: {
         type: String,
